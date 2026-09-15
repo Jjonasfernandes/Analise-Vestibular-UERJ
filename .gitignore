@@ -8,3 +8,15 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Ignora a pasta com os dados brutos
+Classificados/
+max_min/
+CandidatoVaga/
+# Ignora ambientes virtuais do Python
+.venv/
+env/
+__pycache__/
+
+# Ignora arquivos de sistema do Jupyter Notebook
+.ipynb_checkpoints/
