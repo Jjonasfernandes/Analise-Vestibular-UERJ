@@ -20,3 +20,6 @@ __pycache__/
 
 # Ignora arquivos de sistema do Jupyter Notebook
 .ipynb_checkpoints/
+
+# Seguranca
+.env
