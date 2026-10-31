@@ -1,3 +1,52 @@
+## Organização do projeto vestibular UERJ
+projeto-vestibular/
+│
+├── data/
+│   ├── raw/
+│   │   ├── candidato_vaga/
+│   │   ├── classificados/
+│   │   └── max_min/
+│   │
+│   ├── processed/
+│   │   ├── candidato_vaga/
+│   │   ├── classificados/
+│   │   └── max_min/
+│   │
+│   └── curated/
+│
+├── notebooks/
+│   ├── 01_etl_candidato_vaga.ipynb
+│   ├── 02_etl_classificados.ipynb
+│   ├── 03_etl_max_min.ipynb
+│   └── 04_analise_exploratoria.ipynb
+│
+├── src/
+│   └── vestibular/
+│       ├── extraction/
+│       │   ├── candidato_vaga.py
+│       │   ├── classificados.py
+│       │   └── max_min.py
+│       │
+│       ├── transformation/
+│       │   └── limpeza.py
+│       │
+│       ├── validation/
+│       │   └── qualidade.py
+│       │
+│       └── loading/
+│           └── supabase.py
+│
+├── tests/
+│   ├── test_candidato_vaga.py
+│   ├── test_classificados.py
+│   └── test_max_min.py
+│
+├── .env
+├── .gitignore
+├── .python-version
+├── pyproject.toml
+└── README.md
+
 ## Fonte dos dados e privacidade
 
 Os dados utilizados neste projeto foram obtidos a partir de informações
@@ -35,3 +84,4 @@ Disponível em:
 https://www.vestibular.uerj.br/?page_id=8456
 
 Acesso em: [14/09/2026].
+

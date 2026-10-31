@@ -1,7 +1,7 @@
 [project]
 name = "projeto-vestibular"
 version = "0.1.0"
-description = "Add your description here"
+description = "Projeto de extração e análise de dados do Vestibular UERJ"
 readme = "README.md"
 requires-python = ">=3.12,<3.13"
 dependencies = [
@@ -12,3 +12,4 @@ dependencies = [
     "python-dotenv>=1.2.3",
     "supabase>=2.31.0",
 ]
+

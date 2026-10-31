@@ -1,0 +1,18 @@
+## Protótipo do projeto até agora...
+
+projeto_vestibular/
+│
+├── CandidatoVaga/
+├── Classificados/
+├── max_min/
+│
+├── ETL_candidato_vaga.ipynb
+├── ETL_Classificados.ipynb
+├── ETL_MaxMin.ipynb
+│
+├── supabase_loader.py
+│
+├── .env
+├── .gitignore
+├── .python-version
+└── pyproject.toml
